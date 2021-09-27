@@ -1,4 +1,4 @@
-# mycode
+# Learning how version control workes with mycode
 Tracking my code
 # mycode (Project Title)
 
