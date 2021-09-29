@@ -1,6 +1,9 @@
 #!/usr/bin/env python3
+## Ask user for name of file to be read in
+filename = input("What is the name of file to be read in?:")
+
 ## create file object in "r"ead mode
-with open("vlanconfig.cfg", "r") as configfile:
+with open(filename, "r") as configfile:
     ## readlines() creates a list by reading target
     ## file line by line
     configlist = configfile.readlines()
